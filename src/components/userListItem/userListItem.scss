@@ -1,0 +1,27 @@
+.userListItem {
+    &__wrapper{
+        background: #F3F3F3;
+        border-radius: 8px;
+        list-style-type: none;
+        line-height: 0.5;
+        margin: 0 6.2rem 1.4rem 3.1rem
+    }
+    &__content{
+        padding: 1rem 0rem 0.1rem 1rem;
+        font-size: 1.1rem;
+        width: 100%;
+        color: #A3A3A3;
+    }
+    &__data{
+        color: black;
+        margin-left: 1%;
+    }
+    &__link{
+        float: right;
+        padding-right: 1rem;
+        text-decoration: none;
+        font-size: 1.2rem;
+        
+    }
+     
+}

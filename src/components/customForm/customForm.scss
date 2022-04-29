@@ -1,0 +1,32 @@
+.customForm{
+    &__content{
+        box-sizing: content-box;
+        width: 438px;
+        // height: 100%;
+        border: 1px solid #F3F3F3;
+        box-sizing: border-box;
+        border-radius: 8px;
+        margin: 0 3rem;
+        padding: 1.9rem 0rem 0rem 1.2rem ;
+
+    }
+    &__button{
+        float: right;
+        margin: 1rem 0rem 0rem 0rem;
+        background: #AFAFAF;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        color: #FFFFFF;
+        line-height: 1.4rem;
+        padding: 0.4rem 1.4rem;
+        margin-bottom: 10px;
+        border-style: none;
+    }
+}
+
+.is-able{
+    background: #52CF4F;
+}
+
+
+

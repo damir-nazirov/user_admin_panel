@@ -1,0 +1,16 @@
+html{
+    font-size: 10px;
+}
+
+.app {
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: #E5E5E5;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 152px 513px;
+    max-width: 665px;
+    margin: 0 auto;
+    }
