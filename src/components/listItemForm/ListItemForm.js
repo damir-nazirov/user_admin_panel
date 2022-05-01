@@ -7,13 +7,11 @@ import './listItemForm.scss'
 
 const ListItemForm = (props) => {
 
-const labelName = props.item.label[0].charAt(0).toUpperCase() + props.item.label[0].slice(1);
-
     return (
         <li>
                 <div>
                      <FormInput 
-                        label={labelName}
+                        label={props.item.label}
                         readOnly={props.readonly}
                         type="text" 
                         name={props.item.label}
