@@ -7,7 +7,7 @@ const FormInput = ({ label, ...props }) => {
     const [field, meta] = useField(props);
     return (
       <>
-        <label className="labelName" htmlFor={props.name}>{label}</label>
+        <label className="label-name" htmlFor={props.name}>{label}</label>
         <input {...field} {...props} 
           className={props.readOnly ? 'form-input' : 
                     !props.readOnly && !meta.touched && !meta.error ?
